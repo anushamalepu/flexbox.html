@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="design1.css">
+   <title> ASSIGNMENT DESIGN 2</title>
+   <style>
+     .flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: 30px white;
+  margin:10px;
+  border :5px solid orange;
+  justify-content: space-between;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 1250px;
+  margin: 30px;
+  border: 5px solid skyblue;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+}
+   </style>
+</head>
+<body>
+  
+<div class="flex-container">
+  <div style="text-align: start ;">
+
+    <div style="width:5%;display:inline-block;">
+      <img src="contact1.png"/>
+    </div>
+    <div style="width:94%;display:inline-block;">
+      <b>Lisa</b>
+      <p style="text-align: left;" >Hey have you tried Flexbox?This is so much better than floats!</p>
+    </div>
+  </div>
+
+
+  <div style="text-align: end;">
+    <div style="width:94%;display:inline-block;" >
+      <b>David</b>
+      <p>Hey I've never tried it yet.</p>
+    </div>
+    <div style="width:5%;display:inline-block">
+      <img src="contact1.png"/> 
+    </div>
+  </div>
+
+
+  <div style="text-align:start;">
+    <div style="width:5%;display:inline-block">
+      <img src="contact1.png"/>
+    </div>
+    <div style="width:94%;display:inline-block;">
+      <b>Lisa</b>
+      <p style="text-align: left;">It's a real layout model,you can forgot about clearfix and other hacks</p>
+    </div>
+  </div>  
+</div>
+
+</body>
+</html>
